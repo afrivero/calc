@@ -7,7 +7,13 @@
 	function cuadrado(){
 		var num=document.getElementById("n1");
 		num.value(num.value * num.value);
+	
 	}
+	function sqrt(){
+		var num=document.getElementById("n2");
+		num.value(Math.pow(0.5,num.value);
+	}
+
 </script>
 </head>
 
@@ -15,5 +21,6 @@
 Número:
 <input type="text" id="n1" onclick="vaciar()">
 <button onclick="cuadrado()">x<sup>2</sup></button>
+<button onclick="sqrt()">raiz</button>
 </body>
 </html>
